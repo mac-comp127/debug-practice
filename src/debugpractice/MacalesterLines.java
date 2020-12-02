@@ -10,7 +10,7 @@ import java.util.List;
  * Created by dkluver on 2017-11-17. Updated by pcantrell 2019-11-5.
  */
 public class MacalesterLines extends GraphicsGroup {
-    public void draw() {
+    public void createLines() {
         List<Line> lines = new ArrayList<>();
         Line line = new Line(0, 0, 0, 0);
 
@@ -49,8 +49,8 @@ public class MacalesterLines extends GraphicsGroup {
 
     public static void main(String[] args) {
         CanvasWindow window = new CanvasWindow("Macalester lines", 400, 400);
-        MacalesterLines fl = new MacalesterLines();
-        fl.draw();
-        window.add(fl);
+        MacalesterLines logo = new MacalesterLines();
+        logo.createLines();
+        window.add(logo);
     }
 }
