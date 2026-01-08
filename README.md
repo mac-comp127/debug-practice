@@ -1,3 +1,3 @@
 # Activity: Debugging practice
 
-Instructions are [here](https://comp127.innig.net/activities/debugging).
+Instructions are [here](https://comp127.macalester.digital/latest/activities/debugging).
